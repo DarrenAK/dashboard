@@ -1,0 +1,19 @@
+
+.App {
+display: flex;
+flex-flow: column nowrap;
+border: 1px solid white;
+height: 100vh;
+}
+
+.spot{
+  color: white;
+}
+
+.player-box{
+  position: sticky;
+  top: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
